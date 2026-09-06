@@ -49,3 +49,9 @@ desktop.ini
 # drop-in folder, breaking the "exactly five things" hard gate.
 CLAUDE.md
 **/CLAUDE.md
+
+# Internal competition strategy and post-mortems. Adam's own notes on
+# how these comps are judged and what previous entries got wrong.
+# Never public -- this repo is a competition ENTRY, not the playbook
+# used to build it.
+_competition_history/
