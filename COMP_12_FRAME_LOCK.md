@@ -46,7 +46,7 @@ Every provision listed under `450:1-9-5.6` **(a)**, **(b)**, **(c)** is a **staf
 | **A — Accuracy** | ONE named insider (Lisa or Tiffany — decide before the run) | Do findings match the rule text? Every correction logged with a date. |
 | **B — Hostile outsider** ⭐ | **Karen** | Never seen a personnel file or a state rule. Cold, one task, on camera, coaching left in, failure published. |
 | **C — Cold model** | Fresh Claude session | Drops folder in, audits a fixture it has never seen. Five conditions. |
-| **D — Live use** | Lisa, on Safe Harbor's 3 real staff files during the actual plan of correction | Only if her real timeline allows. Publishes counts + her verbatim verdict. **Publishes zero file contents.** Her real job outranks the comp. |
+| **D — Live use** | Lisa, on Safe Harbor's 3 real staff files while preparing for the **re-review** (there is no plan of correction — see TEST_METHOD Run D) | Only if her real timeline allows. Publishes counts + her verbatim verdict. **Publishes zero file contents.** Her real job outranks the comp. |
 
 **6 — Fixtures (all synthetic, written by Adam, ZERO real data):**
 - 3 broken: (i) missing in-service topics, (ii) privileged AFTER first treatment date, (iii) no supervision documentation
@@ -160,7 +160,7 @@ The Critical / Necessary tiers are the state's own. The specific split observed 
 ---
 
 ## THE FOUR SEPARATORS (evidence moves, not build moves)
-1. **Run D** — real compliance officer, real files, live plan-of-correction window, license on the line (Comp #9's winning shape)
+1. **Run D** — real compliance officer, real files, **live re-review window with a state vote on Sep 24**, certification on the line (Comp #9's winning shape). *Stronger than the original framing, not weaker: this is not tidying a few items before a pass — the agency has to re-earn the certification, and staff files are among the listed reasons.*
 2. **The disagreement** — the auditor returns NOT APPLICABLE on (b)(3) for an outpatient Ch.18 program, quoting the exemption sentence. Framed as *flagged for human review*, never "the state was wrong." Verified with Lisa first; either outcome is publishable.
 3. **Severity from the regulator**, not invented
 4. **Scope conditions as a first-class rule** — asks chapter + level of care before auditing

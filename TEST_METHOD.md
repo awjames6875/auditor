@@ -163,10 +163,12 @@ Four synthetic staff files. Every name, date, and credential is invented. No rea
 
 **Tester:** Lisa, Safe Harbor compliance officer.
 
-**Purpose:** the auditor is used on the agency's three real personnel files while Lisa prepares the actual plan of correction for the August 2026 ODMHSAS review. This is a live regulatory window with the agency's certification at stake.
+**Purpose:** the auditor is used on the agency's three real personnel files while Lisa prepares for the agency's **re-review**. This is a live regulatory window with the agency's certification genuinely at stake.
+
+**Corrected Sep 6, before any run.** An earlier draft said "while Lisa prepares the actual plan of correction." **There is no plan of correction, and there will not be one.** A plan of correction is issued when a provider is going to pass and needs to adjust a few items — that is what happened on the agency's Chapter 27 review. The Chapter 18 desk review did not go that way: nothing can be submitted against it, and the agency must schedule a **new review** and apply again. The state votes **Sep 24**. The findings remain usable to fix what they name; they are not a document to respond to.
 
 **Rules — all fixed in advance:**
-- Lisa's real job comes first. If the plan-of-correction timeline and the competition conflict, the plan of correction wins and Run D is skipped or delayed. A skipped Run D is logged in `DEVIATIONS.md`, not hidden.
+- Lisa's real job comes first. If the re-review timeline and the competition conflict, **the re-review wins** and Run D is skipped or delayed. A skipped Run D is logged in `DEVIATIONS.md`, not hidden.
 - Lisa uses the auditor as one input to her own review. She is not asked to trust it.
 - **Published:** number of findings the auditor produced per file, number Lisa agreed with, number she overrode, her stated reasons for overrides, and her verbatim verdict on whether it helped.
 - **Never published:** any staff file content, any employee name, license number, hire date, training record, or supervision entry. Counts and quotes only.

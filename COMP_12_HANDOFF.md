@@ -44,7 +44,7 @@ Do these one at a time. Do not start #6 until #1–5 are done.
 **6. Write the four fixtures** in `fixtures/` + the answer key in `receipts/EXPECTED_RESULTS.md`. All invented. Defect shapes are in the frame lock, section 6.
 
 **7. Two texts to send today:**
-- **Lisa:** "Are we an outpatient program subject to Chapter 18 for purposes of 450:1-9-5.6(b)(3)? The rule text has an exemption I want you to look at before the plan of correction." + "Can you spend an hour next week running a checklist tool on our three staff files while you prep the correction plan? Counts only get published, never file contents."
+- ~~**Lisa**~~ **ANSWERED Sep 6.** Outpatient-only is what the agency is **applying for**; it is not what it was at the time of the August review. **No plan of correction is coming** — the Chapter 18 review did not pass, nothing can be submitted against it, and a new review must be scheduled. Run D confirmed for **Tuesday**.
 - **Karen:** confirm Tuesday Sep 8, ~30 min, screen recorded, she'll be told one sentence and nothing else.
 
 That's Day 1. Run 0 (control) is Day 2 morning.
@@ -53,13 +53,17 @@ That's Day 1. Run 0 (control) is Day 2 morning.
 
 ## THE ONE THING THAT MATTERS MORE THAN THE COMP
 
-**(b)(3) is listed in the Aug 2026 exit summary under "Possible Findings: Critical Standard."** Verified against the source Sep 6. The rule text says (b)(3) does not apply to outpatient programs subject to Chapter 18. If that exemption reaches you, you have a documented basis to raise it in the plan of correction — the summary says that request arrives 5–10 business days after the Aug 26 exit interview, i.e. **Sep 2–9, open now**. Confirm with Lisa whether it has landed.
+**(b)(3) is listed in the Aug 2026 exit summary under "Possible Findings: Critical Standard."** Verified against the source Sep 6. The rule text says (b)(3) does not apply to outpatient programs subject to Chapter 18.
+
+**RESOLVED Sep 6 — and it lands on the conservative side.** Outpatient-only is the configuration the agency is **applying for**, not the one under review in August. So the exemption is **forward-looking**: it governs the program being applied for. It is **not** a basis for saying the August listing was wrong.
+
+**Therefore separator #2 is "the auditor handles a scope condition correctly," not "the state was wrong."** Which is what the frame lock required from the beginning. The tool does not change; one framing sentence does. The auditor still returns NOT APPLICABLE on (b)(3) for an outpatient Chapter 18 program, still quotes the exemption, and still flags it **for human review**.
 
 **LANGUAGE RULE:** the summary is headed *"Possible Findings"* and states verbatim that it *"does not offer any predictions regarding final scores or certification outcomes."* So in public: **"listed as a possible Critical Standard finding."** Never "cited," never "failed," never "the state found."
 
 **OPEN — Lisa decides, not you:** the exemption covers *outpatient* programs subject to Chapter 18. The summary header establishes "Chapter 18." The outpatient half is stated in the future tense in the Aug 31 thread (*"it **will** just be OP"*). Whether Safe Harbor was outpatient **at the time of the August review** decides whether this is a live disagreement or a forward-looking scope condition. Both are publishable. Neither changes the tool.
 
-**This is not legal advice and I don't know your certified level of care.** Lisa decides. But ask her before you write the plan of correction, not after.
+**This is not legal advice.** Lisa decides. **Asked and answered Sep 6** — see above.
 
 ---
 
