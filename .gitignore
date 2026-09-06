@@ -1,0 +1,51 @@
+# ─────────────────────────────────────────────────────────────
+# CONFIDENTIALITY GATE — read COMP_12_FRAME_LOCK.md §GATES
+# This repo is PUBLIC. Everything below is denied by default.
+# ─────────────────────────────────────────────────────────────
+
+# The ODMHSAS exit summary and anything derived from it.
+# It contains a consumer identifier. It never enters this repo
+# in any form — not committed, not attached, not screenshotted.
+*Exit*Summary*
+*exit*summary*
+*Safe?Harbor*8-13-26*
+*findings*letter*
+*Findings*Letter*
+
+# State/agency documents in any office format. Deny the shape,
+# not just the filename, so a rename cannot slip one through.
+*.docx
+*.doc
+*.odt
+*.rtf
+*.xlsx
+*.xls
+*.pdf
+
+# Local-only denylist of literal strings check.py screens for.
+# Kept OUT of the repo on purpose: publishing the denylist would
+# publish the very identifiers it exists to suppress.
+# check.py ships SHA-256 hashes instead — see check.py.
+.denylist.local
+
+# Session and tooling artifacts. These accumulate transcripts
+# and tool output that were never reviewed for publication.
+tool-results/
+.claude/
+tasks/
+
+# Not in the repo by decision — COMP_12_HANDOFF.md:26
+CODEX_REVIEW_PROMPT.md
+
+# OS / editor noise
+Thumbs.db
+desktop.ini
+.DS_Store
+*.swp
+*~
+
+# Auto-generated claude-mem stubs (169 bytes, no content).
+# auditor/reference/CLAUDE.md would ship a stray file inside the
+# drop-in folder, breaking the "exactly five things" hard gate.
+CLAUDE.md
+**/CLAUDE.md
