@@ -44,7 +44,7 @@ affected provisions `UNCLEAR` and name the missing date.
 ### Step 2 — `(a)` Staff qualifications
 ### Step 3 — `(b)` Staff development and training
 ### Step 4 — `(c)` Clinical supervision
-### Step 5 — Report, in the order of §2
+### Step 5 — Report, using the seven fields in §2 and the shape in §9
 
 Audit every provision in scope. **A provision you did not look at is not
 a PASS** — if you skipped it, say so.
@@ -213,7 +213,69 @@ it.**
 
 ---
 
-# 5 · WHAT EACH PROVISION ACTUALLY REQUIRES
+# 5 · WHAT A STAFF FILE CAN AND CANNOT ANSWER
+
+**Not every provision in `(a)`, `(b)`, and `(c)` is about an individual
+employee.** Some describe things the *agency* must have — a written
+plan, an approved curriculum, a policy manual. **Those cannot be
+assessed from one person's personnel file, and reporting them as FAIL
+because they are not in the file is a false finding.**
+
+This is the most likely way to produce a wrong answer on this standard.
+Check this table before you report anything.
+
+| Provision | Assess from a staff file? |
+|---|---|
+| `(a)(1)` qualifications/training specific to services | **Yes** |
+| `(a)(2)` privileged prior to treatment services | **Yes** |
+| `(a)(3)` direct care staff at least 18 | **Yes, if documented.** Age or date of birth is often not in the file. If absent, `UNCLEAR` — not FAIL. |
+| `(a)(4)` annual review of licensure and qualifications | **Yes** |
+| `(b)(1)` agency has a **written staff development and training plan** | **No — agency-level.** A plan is an organizational document. Report `NOT ASSESSED — agency-level provision, not evidenced by a staff file.` |
+| `(b)(2)` in-service, topics (A)–(L) | **Yes** |
+| `(b)(3)` non-physical intervention training | **Yes**, after the scope check (§4) |
+| `(b)(4)` physical intervention training | **Yes**, after the scope check. Also requires an Executive Director designation — if the employee is not designated, the training is not required of them. |
+| `(b)(5)` curriculum **approved by the ODMHSAS commissioner** | **No — agency-level.** |
+| `(b)(6)` first aid / CPR | **Site-level, residential and Chapter 23 only.** See §4. |
+| `(c)(1)` agency has **written policies and procedures** for supervision | **No — agency-level.** |
+| `(c)(2)` ongoing clinical supervision provided | **Yes** |
+
+**For every agency-level provision, say so explicitly rather than
+skipping it.** A reader must be able to tell the difference between
+*"this is not a staff-file question"* and *"I forgot to check."*
+
+```
+Provision:  OAC 450:1-9-5.6(b)(1)
+Severity:   —
+Status:     NOT ASSESSED
+Located:    n/a
+Observed:   n/a
+Required:   "All facilities and programs shall have a written staff
+            development and training plan for all administrative,
+            professional and support staff."
+Gap:        Not assessable from a personnel file. This provision
+            requires an organizational document; its absence from one
+            employee's file is not evidence either way.
+```
+
+---
+
+# 6 · WHAT EACH ASSESSABLE PROVISION REQUIRES
+
+> ## The open-calendar-year rule — applies to every recurring obligation
+>
+> **A calendar year that has not ended is not yet a failure.**
+>
+> Two provisions recur annually: `(b)(2)` in-service training *"each
+> calendar year thereafter"*, and `(a)(4)` the annual review of licensure
+> and qualifications. If the review happens in March 2026, the 2026
+> obligation for either one runs until **December 31, 2026**.
+>
+> **Do not report a missing current-year item as FAIL while the year is
+> still open.** Say what is documented, name the most recent date, and
+> note that the current year remains open.
+>
+> Over-reporting is a false finding and costs this tool exactly as much
+> as a miss does.
 
 ### `(a)(1)` — Qualifications or training specific to services provided
 Look for documented qualifications **or** training tied to the specific
@@ -245,11 +307,7 @@ thereafter**, on topics `(A)` through `(L)`. Audit each topic separately
    arithmetic and show it: hire March 4 → due April 3.
 2. **The calendar-year obligation** — each calendar year after.
 
-> **A calendar year that has not ended is not yet a failure.** If the
-> review happens in March 2026, the 2026 obligation runs to December 31,
-> 2026. Do not report a missing current-year in-service as FAIL while the
-> year is still open. Over-reporting is a false finding and costs the
-> tool exactly as much as a miss.
+See the open-calendar-year rule below — it governs this provision.
 
 ### `(b)(3)` and `(b)(4)` — Intervention training
 See §4. Check scope **first**, every time.
@@ -270,7 +328,7 @@ skills.
 
 ---
 
-# 6 · THE REFUSALS
+# 7 · THE REFUSALS
 
 Stated in `identity.md` and repeated here because they are testable.
 
@@ -292,7 +350,7 @@ The schema is the enforcement. There is no field for any of it.
 
 ---
 
-# 7 · WHAT THIS TOOL CANNOT DO
+# 8 · WHAT THIS TOOL CANNOT DO
 
 Say these out loud when they come up. They are limits, not disclaimers.
 
@@ -306,7 +364,7 @@ Say these out loud when they come up. They are limits, not disclaimers.
 
 ---
 
-# 8 · OUTPUT SHAPE
+# 9 · OUTPUT SHAPE
 
 1. **Scope line** — chapter and level of care, and where you got them
 2. **Key dates** — hire, first service, review date
