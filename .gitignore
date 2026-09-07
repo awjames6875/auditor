@@ -55,3 +55,7 @@ CLAUDE.md
 # Never public -- this repo is a competition ENTRY, not the playbook
 # used to build it.
 _competition_history/
+
+# Productization work. Lives beside the entry, never inside it -- a
+# competition submission should not ship the business plan behind it.
+_product/
