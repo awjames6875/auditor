@@ -60,6 +60,29 @@ def read(path):
 
 # --------------------------------------------------------------- shape
 
+def ignored_names():
+    """Bare filenames denied by .gitignore.
+
+    A judge clones the repo, so a gitignored file is not part of the
+    submission and must not be reported as a stray. Parsed by hand -
+    no git dependency, since this has to run anywhere.
+    """
+    names = set()
+    path = os.path.join(ROOT, ".gitignore")
+    if not os.path.isfile(path):
+        return names
+    for line in read(path).splitlines():
+        line = line.strip()
+        if not line or line.startswith("#"):
+            continue
+        line = line.lstrip("/").rstrip("/")
+        if line.startswith("**/"):
+            line = line[3:]
+        if "/" not in line and "*" not in line:
+            names.add(line)
+    return names
+
+
 def check_shape():
     print("\n--- BRIEF COMPLIANCE (the shape a checker tests first)\n")
 
@@ -68,7 +91,9 @@ def check_shape():
         return
     record(PASS, "auditor/ exists")
 
-    actual = set(e for e in os.listdir(AUDITOR) if not e.startswith("."))
+    skip = ignored_names()
+    actual = set(e for e in os.listdir(AUDITOR)
+                 if not e.startswith(".") and e not in skip)
     missing = REQUIRED - actual
     extra = actual - REQUIRED
 
@@ -188,14 +213,30 @@ CITATION = re.compile(
     r"450:1-9-5\.6\s*\(([a-z])\)\s*\((\d+)\)(?:\s*\(([A-L])\))?")
 
 
-def check_citations(paths, inv):
-    print("\n--- CITATIONS (criterion 1: real standard, or just opinion?)\n")
+def check_citations(paths, inv, demo=False):
+    """Validate every citation in a findings artifact.
+
+    demo=True means we are running against the deliberately-broken
+    example that ships with the repo. It is SUPPOSED to fire, so its
+    invalid citations are reported loudly but do not count as failed
+    gates - otherwise a bare run would tell a judge the build is
+    broken when it is actually working.
+    """
+    if demo:
+        print("\n--- DEMONSTRATION: the citation gate, fired on purpose\n")
+        print("    examples/findings-broken.md ships with invalid citations")
+        print("    so this gate visibly works on a bare run. Failures below")
+        print("    are the EXPECTED result, not defects.\n")
+    else:
+        print("\n--- CITATIONS (criterion 1: real standard, or just opinion?)\n")
+
     if inv is None:
         record(FAIL, "citations validated", "no reference to check against")
         return
 
     checked = 0
     invalid = 0
+    caught = []
     for path in paths:
         if not os.path.isfile(path):
             record(WARN, "findings artifact", path + " not found")
@@ -206,18 +247,30 @@ def check_citations(paths, inv):
             num = int(num)
             label = "450:1-9-5.6(%s)(%d)%s" % (
                 sub, num, "(%s)" % letter if letter else "")
+            reason = None
             if sub not in inv or num not in inv[sub]:
-                invalid += 1
-                record(FAIL, "invalid citation in " + name,
-                       label + " does not exist in reference/")
+                reason = label + " does not exist in reference/"
             elif letter and not (sub == "b" and num == 2):
+                reason = label + " - only (b)(2) carries lettered topics"
+            if reason:
                 invalid += 1
-                record(FAIL, "invalid citation in " + name,
-                       label + " - only (b)(2) carries lettered topics")
+                caught.append(reason)
+                if demo:
+                    print("    caught: %s" % reason)
+                else:
+                    record(FAIL, "invalid citation in " + name, reason)
 
-    # Silence and success must never look identical.
-    record(PASS if invalid == 0 else FAIL, "citation check complete",
-           "%d citations checked, %d invalid" % (checked, invalid))
+    summary = "%d citations checked, %d invalid" % (checked, invalid)
+    if demo:
+        # The gate passes when it CATCHES the planted citations.
+        print("")
+        record(PASS if invalid > 0 else FAIL,
+               "citation gate fires on planted citations",
+               summary + " - expected 3+")
+    else:
+        # Silence and success must never look identical.
+        record(PASS if invalid == 0 else FAIL, "citation check complete",
+               summary)
 
 
 # ------------------------------------------------------------ denylist
@@ -274,8 +327,11 @@ def main():
         check_denylist()
 
     if run_all or paths:
-        default = [os.path.join(ROOT, "examples", "findings-broken.md")]
-        check_citations(paths or default, inv)
+        if paths:
+            check_citations(paths, inv, demo=False)
+        else:
+            demo_file = os.path.join(ROOT, "examples", "findings-broken.md")
+            check_citations([demo_file], inv, demo=True)
 
     failed = [r for r in results if r[0] == FAIL]
     print("\n" + "=" * 68)
