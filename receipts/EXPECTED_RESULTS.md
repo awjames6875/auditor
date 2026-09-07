@@ -34,6 +34,37 @@ must not look identical.
 
 ---
 
+## Agency-level provisions — expected on ALL five fixtures
+
+`rules.md` §5 classifies each provision as staff-file assessable or
+agency-level. **Three cannot be answered by a personnel file at all:**
+
+| Provision | Expected status on every fixture |
+|---|---|
+| `(b)(1)` agency has a written staff development and training plan | `NOT ASSESSED — agency-level` |
+| `(b)(5)` training curriculum approved by the ODMHSAS commissioner | `NOT ASSESSED — agency-level` |
+| `(c)(1)` agency has written supervision policies and procedures | `NOT ASSESSED — agency-level` |
+
+**Reporting any of these as FAIL is a false finding**, and it is the most
+dangerous error this tool can make: confident, correctly cited, and
+wrong about an agency that may well have the document.
+
+**Reporting them not at all is the other failure.** A reader must be able
+to tell *"not a staff-file question"* from *"I forgot to check."*
+
+Two more, also expected on all five:
+
+| Provision | Expected |
+|---|---|
+| `(a)(3)` direct care staff at least 18 | `UNCLEAR` — no fixture documents age or date of birth. **Not FAIL.** |
+| `(b)(6)` first aid / CPR | `NOT APPLICABLE` — outpatient. Reaches residential and Chapter 23 sites only. |
+
+> `(b)(6)` is the scope trap. It is a **real** provision, so `check.py`
+> accepts a citation to it. Only the level-of-care check catches the
+> error. See `fixture-05`.
+
+---
+
 ## Severity tiers used
 
 Critical Standard and Necessary Standard are the state's own tiers. The
@@ -94,7 +125,7 @@ annual review February 2, 2026 · `(b)(2)(A)` · `(b)(2)(B)` · `(b)(2)(C)` ·
 ### Expected NOT APPLICABLE
 `(b)(3)`, `(b)(4)`.
 
-**Totals: 9 findings — 4 Critical, 5 Necessary. At least 7 PASS lines. 2 NOT APPLICABLE.**
+**Totals: 9 findings — 4 Critical, 5 Necessary. At least 7 PASS. 3 NOT APPLICABLE — `(b)(3)`, `(b)(4)`, `(b)(6)`. 3 NOT ASSESSED — `(b)(1)`, `(b)(5)`, `(c)(1)`. 1 UNCLEAR — `(a)(3)`.**
 
 ---
 
@@ -118,7 +149,7 @@ annual review February 2, 2026 · `(b)(2)(A)` · `(b)(2)(B)` · `(b)(2)(C)` ·
 ### Expected NOT APPLICABLE
 `(b)(3)`, `(b)(4)`.
 
-**Totals: 1 finding — 1 Critical, 0 Necessary. At least 15 PASS lines. 2 NOT APPLICABLE.**
+**Totals: 1 finding — 1 Critical, 0 Necessary. At least 15 PASS. 3 NOT APPLICABLE. 3 NOT ASSESSED. 1 UNCLEAR — `(a)(3)`.**
 
 ---
 
@@ -143,7 +174,7 @@ again for calendar year 2025 on August 14.
 ### Expected NOT APPLICABLE
 `(b)(3)`, `(b)(4)`.
 
-**Totals: 1 finding — 1 Critical, 0 Necessary. At least 15 PASS lines. 2 NOT APPLICABLE.**
+**Totals: 1 finding — 1 Critical, 0 Necessary. At least 15 PASS. 3 NOT APPLICABLE. 3 NOT ASSESSED. 1 UNCLEAR — `(a)(3)`.**
 
 ---
 
@@ -165,7 +196,7 @@ signed entries, each addressing all three required areas.
 ### Expected NOT APPLICABLE
 `(b)(3)`, `(b)(4)`.
 
-**Totals: 0 findings. At least 16 PASS lines. 2 NOT APPLICABLE.**
+**Totals: 0 findings. At least 16 PASS. 3 NOT APPLICABLE. 3 NOT ASSESSED. 1 UNCLEAR — `(a)(3)`.**
 
 > **`check.py` must stay silent on this fixture** — and must say so out
 > loud, printing `0 citations checked, 0 invalid` rather than printing
@@ -210,7 +241,7 @@ a human or a correctly-scoped auditor will.
 > caught that it is real, and the bait was moved to `(a)(5)`, `(b)(7)`
 > and `(c)(3)`.
 
-**Totals: 0 findings. At least 16 PASS lines. 2 NOT APPLICABLE. 7 out-of-scope items named as out of scope.**
+**Totals: 0 findings. At least 16 PASS. 3 NOT APPLICABLE. 3 NOT ASSESSED. 1 UNCLEAR — `(a)(3)`. 7 out-of-scope items named as outside the standard.**
 
 ---
 
