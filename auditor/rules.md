@@ -1,5 +1,7 @@
 # rules.md — how to audit a staff personnel file
 
+> **Using this as a person?** Start with `README.md` in this folder. This file is written for the assistant that does the auditing.
+
 Standard: **OAC 450:1-9-5.6 (a), (b), (c)** — full text in
 `reference/450-1-9-5.6.md`.
 

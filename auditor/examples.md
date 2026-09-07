@@ -1,5 +1,7 @@
 # examples.md — three worked audits
 
+> **Using this as a person?** Start with `README.md` in this folder. This file is written for the assistant that does the auditing.
+
 Two complete audits and one refusal. The rules are in `rules.md`; this
 file shows what they look like in use.
 
@@ -89,9 +91,37 @@ Gap:        None. Both conditions hold: outpatient, and subject to
 `(b)(4)` **NOT APPLICABLE** — same exemption, plus no employee designated
 for physical intervention training.
 
+### NOT ASSESSED — agency-level, and one undocumented
+
+```
+Provision:  OAC 450:1-9-5.6(b)(1)
+Severity:   —
+Status:     NOT ASSESSED
+Located:    n/a
+Observed:   n/a
+Required:   "All facilities and programs shall have a written staff
+            development and training plan for all administrative,
+            professional and support staff."
+Gap:        Not assessable from a personnel file. This requires an
+            organizational document; its absence from one employee's
+            file is not evidence either way.
+```
+
+`(b)(5)` curriculum approved by the commissioner · `(c)(1)` written
+supervision policies — **NOT ASSESSED**, same reason.
+
+`(a)(3)` staff at least 18 — **UNCLEAR.** No date of birth or age in the
+file. Absence of a record is not evidence of a minor, so this is not a
+FAIL.
+
+`(b)(6)` first aid / CPR — **NOT APPLICABLE.** Reaches residential and
+Chapter 23 sites; this program is outpatient. Note that `(b)(6)` is a
+**real** provision, so `check.py` would accept a citation to it. Only the
+level-of-care check catches that error.
+
 ### SUMMARY
 
-**1 finding — 1 Critical, 0 Necessary. 16 PASS. 2 NOT APPLICABLE. 0 unclear.**
+**1 finding — 1 Critical, 0 Necessary. 16 PASS. 3 NOT APPLICABLE. 3 NOT ASSESSED. 1 UNCLEAR.**
 
 Nothing in this file falls outside OAC 450:1-9-5.6 (a)(b)(c).
 
@@ -150,9 +180,13 @@ Gap:        None. All three areas documented per entry.
 ### NOT APPLICABLE
 `(b)(3)`, `(b)(4)` — outpatient, Chapter 18.
 
+### NOT ASSESSED / UNCLEAR
+
+Same as Example 1: `(b)(1)`, `(b)(5)`, `(c)(1)` **NOT ASSESSED** (agency-level) · `(a)(3)` **UNCLEAR** (no age documented) · `(b)(6)` **NOT APPLICABLE** (outpatient).
+
 ### SUMMARY
 
-**0 findings. 16 PASS. 2 NOT APPLICABLE. 0 unclear.**
+**0 findings. 16 PASS. 3 NOT APPLICABLE. 3 NOT ASSESSED. 1 UNCLEAR.**
 
 > **A clean file gets a full audit, not a shrug.** Every provision is
 > reported with the same seven fields. "Nothing wrong" and "I didn't
