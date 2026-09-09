@@ -26,6 +26,30 @@ That shape is the product. The Oklahoma rule is the first instance of it.
 
 ---
 
+## Insurance verification — separate problem, separate build (Sep 9)
+
+Real incident, unrelated to staff files: Safe Harbor was built out for
+insurance-based services, and when it was built, insurance verification
+wasn't actually confirmed working end to end. Result: services were
+delivered against insurance that wasn't verified, and some of it turned
+into free care the agency couldn't bill for.
+
+**Why this is not Comp #12:** different domain entirely — payer
+eligibility verification is a revenue-cycle problem, not a staff
+personnel-file compliance problem. Doesn't touch `450:1-9-5.6`.
+
+**What's known already:** TherapyNotes (the EHR in use) has a built-in
+way to verify insurance eligibility. The open question isn't "does a
+tool exist" — it's why verification wasn't actually happening
+(process gap, not a missing feature) before a client was seen.
+
+**If this becomes a build later:** start by finding out whether the gap
+was TherapyNotes' verification step being skipped, misconfigured, or
+just not part of intake workflow — before designing anything. That's a
+process/root-cause question, not a coding one, and it comes first.
+
+---
+
 ## Real workflow, deliberately out of scope
 
 - Monthly audit cadence / recurring internal review
