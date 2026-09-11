@@ -132,6 +132,17 @@ standard as a **Critical Standard** or a **Necessary Standard** in its
 | `(b)(2)` topics `(F) (G) (H) (I) (L)` | **Necessary** |
 | `(b)(3)` non-physical intervention training | **Critical** |
 | `(c)(2)` ongoing clinical supervision | **Critical** |
+| `(b)(4)` physical intervention training | **Not located.** See below. |
+
+> **Note on `(b)(4)` — a tier this build could not source.** No tier for
+> `(b)(4)` was found in the Quality Clinical Standards table this build
+> verified. A `(b)(4)` finding therefore ships with
+> `Severity: UNSOURCED — VERIFY`, and **never** with a tier inferred from
+> `(b)(3)`'s Critical. Adjacency in the rule text is not a source —
+> `(b)(2)` alone splits across both tiers, which proves adjacency predicts
+> nothing. The same gap covers `(a)(3)`, `(a)(4)` and `(b)(6)`, none of
+> which carry a tier here either. Closing it requires reading the manual,
+> not reasoning from this table.
 
 > **Note on `(a)(2)`.** ODMHSAS classifies it as **Critical** on a
 > personnel-record review and Necessary on a policy review. **This
@@ -237,7 +248,7 @@ Check this table before you report anything.
 | `(b)(3)` non-physical intervention training | **Yes**, after the scope check (§4) |
 | `(b)(4)` physical intervention training | **Yes**, after the scope check. Also requires an Executive Director designation — if the employee is not designated, the training is not required of them. |
 | `(b)(5)` curriculum **approved by the ODMHSAS commissioner** | **No — agency-level.** |
-| `(b)(6)` first aid / CPR | **Site-level, residential and Chapter 23 only.** See §4. |
+| `(b)(6)` first aid / CPR | **Site-level.** Out of scope entirely for outpatient non-Chapter-23 programs — report `NOT APPLICABLE` and quote the provision's own limiting language. For a **residential or Chapter 23** site the provision is in scope but still not answerable from one personnel file: it asks which certified staff are present *"during all hours of operation."* Report `NOT ASSESSED — site-level provision, not evidenced by a staff file`, **even when a current card is in the file.** A card is not site coverage. |
 | `(c)(1)` agency has **written policies and procedures** for supervision | **No — agency-level.** |
 | `(c)(2)` ongoing clinical supervision provided | **Yes** |
 
@@ -363,6 +374,8 @@ Say these out loud when they come up. They are limits, not disclaimers.
 - **It is not legal advice.**
 - **`check.py` verifies that a cited provision exists — never that it is the right citation for the defect.** That judgment stays human.
 - **A scope determination is the compliance officer's, not this tool's.** Exemptions are flagged for review, never asserted as conclusions about a reviewer's work.
+- **The severity tiers are less verified than the rule text.** The rule text was checked word-for-word against the ODMHSAS publication (0.9948 similarity across 1,552 words — `receipts/RULE_TEXT_VERIFICATION.md`). The Critical / Necessary tiers come from a *different* document, the Provider Certification Manual, and have had **no equivalent check**. Four provisions — `(a)(3)`, `(a)(4)`, `(b)(4)`, `(b)(6)` — carry no sourced tier here at all. Where severity carries weight in a finding, it deserves the same verification the citations got, and has not had it.
+- **The annual-review timing question for a partial hire year is an open assumption.** `(a)(4)` requires an annual review of licensure and qualifications, but unlike the training rule it spells out **no grace period** and no first-year proration. Whether a review is separately owed for the portion of a year an employee was hired into is not answered by the rule text, is not tested by any fixture, and has been assumed rather than written down. Say so when the dates make it matter, rather than resolving it silently.
 
 ---
 

@@ -143,7 +143,7 @@ tool entirely.**
 |---|---|
 | `auditor/` | **The drop-in folder.** Exactly five things: `README.md`, `identity.md`, `rules.md`, `examples.md`, `reference/`. |
 | `check.py` | The gate. Bare run, offline, no dependencies, any OS. |
-| `fixtures/` | Five synthetic staff files. Every name, date and credential invented. |
+| `fixtures/` | Seven synthetic staff files, spanning Chapter 18 outpatient, Chapter 27 residential, and Chapter 18 residential scopes. Every name, date and credential invented. |
 | `receipts/` | Verification, answer key, run transcripts. |
 | `TEST_METHOD.md` | Written and committed **before** any test was run. Never edited after the first run; deviations are logged with dates, not quietly corrected. |
 | `examples/findings-broken.md` | Deliberately wrong, so a bare `check.py` fires on the first try. |

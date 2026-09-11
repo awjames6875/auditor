@@ -59,3 +59,8 @@ _competition_history/
 # Productization work. Lives beside the entry, never inside it -- a
 # competition submission should not ship the business plan behind it.
 _product/
+
+# Local archive of the auditor folder. The folder itself is the
+# deliverable; a zip of it in the repo root is clutter a judge has to
+# step over.
+auditor.zip
