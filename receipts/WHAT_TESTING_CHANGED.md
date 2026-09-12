@@ -50,9 +50,13 @@ v2 is the entrant's implementation of what the tester said, written from her
 own words — but no one has been handed v2 and asked to use it. The measured
 door has been measured **once**, and the replacement is unmeasured.
 
-**The auditor has never been run against a real staff file.** Every run in
-`receipts/` used a synthetic fixture written for this project. See
-[`RUN_D_NOT_RUN.md`](RUN_D_NOT_RUN.md).
+**The auditor has been run against exactly one real staff file.** For most of
+the day this line read *"has never been run against a real staff file"* —
+that was true when it was written and stopped being true a few hours later,
+when the compliance officer ran it live against a real file at the agency.
+See [`RUN_D_LIVE_USE.md`](RUN_D_LIVE_USE.md). **n = 1.** One file, one
+reviewer, one sitting. The earlier receipt saying it would not happen is kept
+unedited at [`RUN_D_NOT_RUN.md`](RUN_D_NOT_RUN.md).
 
 **Run B does not test what it was designed to test.** Because the files
 arrived as loose attachments rather than a folder, the run cannot say whether

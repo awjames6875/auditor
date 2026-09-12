@@ -59,6 +59,19 @@ receipts before publishing them.
 **Every one is listed with its fix — and so is everything still broken —
 in [`receipts/WHAT_TESTING_CHANGED.md`](receipts/WHAT_TESTING_CHANGED.md).**
 
+Then, the same evening, the compliance officer ran it **against a real staff
+file at the agency** — not a fixture, and nothing that appears in this repo.
+The program is certified under **Chapter 27**, the exact scope she had warned
+that morning had never been tested:
+
+> **"It's the same exemptions for chapter 27 as it is for chapter 18."**
+
+It returned findings, passes, and — where the record was genuinely absent —
+**UNCLEAR rather than a confident failure.** Counts only, no file content:
+[`receipts/RUN_D_LIVE_USE.md`](receipts/RUN_D_LIVE_USE.md). The receipt
+written hours earlier saying that run would never happen is kept, unedited,
+at [`receipts/RUN_D_NOT_RUN.md`](receipts/RUN_D_NOT_RUN.md).
+
 ---
 
 ## The four things this was judged on, and where to check each

@@ -1,0 +1,439 @@
+1
+00:00:00,011 --> 00:00:04,644
+Okay, I uploaded the five files
+
+2
+00:00:04,645 --> 00:00:08,542
+that Adam sent to me, and so,
+
+3
+00:00:08,543 --> 00:00:11,565
+and then I, uploaded a staff file,
+
+4
+00:00:11,992 --> 00:00:14,700
+and I put audit this staff file.
+
+5
+00:00:14,786 --> 00:00:18,502
+And so then it asked me, which chapters,
+
+6
+00:00:18,513 --> 00:00:22,410
+are we currently under? So I told it that we are currently under chapter
+
+7
+00:00:22,411 --> 00:00:27,017
+27, going for chapter 18 and so as you
+
+8
+00:00:27,018 --> 00:00:31,704
+can see Claude came back and said chapter 27 currently with
+
+9
+00:00:31,705 --> 00:00:36,508
+chapter 18 certification and process and then it explains what
+
+10
+00:00:37,478 --> 00:00:41,291
+exemption question once they know the level of care.
+
+11
+00:00:41,696 --> 00:00:46,239
+It asked me what our program level is currently and I said outpatient.
+
+12
+00:00:46,814 --> 00:00:50,696
+And so then it replied here,
+
+13
+00:00:50,707 --> 00:00:53,127
+explaining this a little bit and then it tell,
+
+14
+00:00:53,128 --> 00:00:56,657
+told me that it, it read all 16 of the files that were in
+
+15
+00:00:56,658 --> 00:01:00,027
+the folder and it explains kind of,
+
+16
+00:01:00,028 --> 00:01:02,837
+you know, exactly, entirely noted at the end,
+
+17
+00:01:02,838 --> 00:01:05,636
+not otherwise discussed and this was the person that we did.
+
+18
+00:01:06,063 --> 00:01:08,387
+And then gives the scopes,
+
+19
+00:01:08,388 --> 00:01:11,976
+the hire date, and it started to give me the findings.
+
+20
+00:01:11,977 --> 00:01:14,130
+Okay. So the findings here,
+
+21
+00:01:14,131 --> 00:01:17,398
+the first thing with the critical standard showed that this failed.
+
+22
+00:01:17,399 --> 00:01:20,342
+And so in the file, there was no annual,
+
+23
+00:01:20,352 --> 00:01:24,911
+review found, and what is, and then it tells you here what is required
+
+24
+00:01:24,912 --> 00:01:29,791
+that each facility or program will minimally form a review each calendar year
+
+25
+00:01:30,151 --> 00:01:33,460
+and the gap. So letting us know that it didn't exist.
+
+26
+00:01:33,617 --> 00:01:36,264
+The next thing was,
+
+27
+00:01:36,613 --> 00:01:39,314
+which is a critical standard again, where it is found.
+
+28
+00:01:39,535 --> 00:01:44,362
+I get it was fail because it said both because both
+
+29
+00:01:44,363 --> 00:01:49,285
+the 2025 training and sign-in sheets that's where it's located
+
+30
+00:01:49,602 --> 00:01:54,365
+and it had 13 training modules listed and
+
+31
+00:01:54,366 --> 00:01:58,534
+attested to but none of them, described as covering child abuse reporting.
+
+32
+00:01:58,535 --> 00:02:02,976
+And so it tells us exactly what was missing or what was required and
+
+33
+00:02:02,977 --> 00:02:05,745
+what was missing and where the gap was.
+
+34
+00:02:06,988 --> 00:02:09,641
+The next item, another critical standard that failed,
+
+35
+00:02:09,652 --> 00:02:12,957
+and where it was located. And again, it has to do with the,
+
+36
+00:02:12,967 --> 00:02:17,659
+the training. the next one, another unnecessary standard that
+
+37
+00:02:17,660 --> 00:02:22,700
+failed and it says exactly what's there and what was required
+
+38
+00:02:23,250 --> 00:02:26,080
+and it didn't see it listed.
+
+39
+00:02:27,080 --> 00:02:31,647
+The next one also fails same thing and it's saying that there
+
+40
+00:02:31,648 --> 00:02:35,406
+were no module trainings addressing co-occurring disorders,
+
+41
+00:02:35,417 --> 00:02:40,046
+letting us know again what was required and what wasn't here.
+
+42
+00:02:40,545 --> 00:02:42,594
+And the next one,
+
+43
+00:02:42,604 --> 00:02:46,007
+another critical standard is saying the status was unclear.
+
+44
+00:02:46,474 --> 00:02:49,573
+The whole file was there, but no privileging record found.
+
+45
+00:02:49,574 --> 00:02:53,311
+It wasn't a document and no first treatment service date appeared.
+
+46
+00:02:53,312 --> 00:02:57,033
+And so then again, And it's letting us know what is required,
+
+47
+00:02:57,458 --> 00:03:02,140
+that all staff shall be documented as privileged prior
+
+48
+00:03:02,141 --> 00:03:07,313
+to performing treatment services. So because it couldn't determine the sequencing,
+
+49
+00:03:07,503 --> 00:03:10,151
+or if it existed, it told us that it was unclear.
+
+50
+00:03:11,351 --> 00:03:15,913
+Same for this next critical standard for emergency procedures and safety
+
+51
+00:03:15,914 --> 00:03:18,616
+protocols. It's saying, you know, it observed,
+
+52
+00:03:18,617 --> 00:03:21,775
+it's telling you, telling us what was observed in the file,
+
+53
+00:03:21,845 --> 00:03:24,204
+what should be in the file, and then the gap.
+
+54
+00:03:24,215 --> 00:03:26,497
+another necessary standard, this was,
+
+55
+00:03:26,498 --> 00:03:30,901
+there was nothing, it observed that we did not have a module addressing age
+
+56
+00:03:30,902 --> 00:03:34,636
+developmentally appropriate care, which is required,
+
+57
+00:03:34,652 --> 00:03:37,185
+and it explains what the gap was,
+
+58
+00:03:37,457 --> 00:03:41,375
+you know, basically came down, it could not determine whether it was required,
+
+59
+00:03:41,562 --> 00:03:44,146
+let alone documented.
+
+60
+00:03:44,147 --> 00:03:46,737
+The next provision was,
+
+61
+00:03:46,747 --> 00:03:48,991
+this, this provision, or this standard here,
+
+62
+00:03:48,992 --> 00:03:51,036
+which is also a critical standard,
+
+63
+00:03:51,318 --> 00:03:53,321
+which governs all these sections,
+
+64
+00:03:53,322 --> 00:03:57,949
+and it does say that there were two documents existing for the same
+
+65
+00:03:57,950 --> 00:04:00,215
+training, and,
+
+66
+00:04:00,226 --> 00:04:03,361
+one was from 2025, another one from 2026,
+
+67
+00:04:03,372 --> 00:04:07,064
+shows both the staff signature and the date here,
+
+68
+00:04:07,240 --> 00:04:09,930
+over seven months after the calendar year closed,
+
+69
+00:04:09,931 --> 00:04:12,119
+so there's obviously an error there,
+
+70
+00:04:13,020 --> 00:04:16,845
+in service within 30 days of each employee's hire date and each calendar year
+
+71
+00:04:16,846 --> 00:04:21,436
+thereafter. So it has to be there, as well as the it did notice
+
+72
+00:04:21,437 --> 00:04:24,092
+that there were some conflicting com, completion dates.
+
+73
+00:04:24,103 --> 00:04:26,374
+let's see, here's another one, whole file,
+
+74
+00:04:26,375 --> 00:04:29,456
+no supervision log or entries found, so there's nothing in the file,
+
+75
+00:04:29,457 --> 00:04:32,458
+documents, supervision being provided to [EMPLOYEE NAME REDACTED],
+
+76
+00:04:32,842 --> 00:04:36,969
+and it does have his job description and what it's supposed to do,
+
+77
+00:04:37,288 --> 00:04:42,274
+and, but it's still required that he provided and it shall address
+
+78
+00:04:42,275 --> 00:04:46,806
+the appropriateness of treatment and all the rest of these items again telling us
+
+79
+00:04:46,807 --> 00:04:51,311
+what the gap was. And on the things that
+
+80
+00:04:51,312 --> 00:04:54,985
+passed, now that we've seen everything that did not pass.
+
+81
+00:04:54,995 --> 00:04:57,464
+here, this was another, this was a critical standard,
+
+82
+00:04:57,465 --> 00:05:00,146
+and this one did pass because it was,
+
+83
+00:05:00,157 --> 00:05:02,423
+all staff who provide clinical services,
+
+84
+00:05:02,424 --> 00:05:07,333
+and so here is the information here showing that that was in the file.
+
+85
+00:05:07,343 --> 00:05:10,820
+the next one, whoops, was also,
+
+86
+00:05:10,831 --> 00:05:15,837
+another one that was another critical standard that did pass with the background
+
+87
+00:05:15,838 --> 00:05:19,959
+checks, showing that was there, all direct care staff shall be at least 18
+
+88
+00:05:19,960 --> 00:05:22,033
+years old. So that was there.
+
+89
+00:05:22,034 --> 00:05:24,415
+And then as you can see here,
+
+90
+00:05:24,695 --> 00:05:28,991
+it does list all of these. So module 11 through all of these did
+
+91
+00:05:28,992 --> 00:05:32,830
+pass. And so that does,
+
+92
+00:05:32,831 --> 00:05:35,332
+it did list those out one by one.
+
+93
+00:05:36,171 --> 00:05:38,199
+And then here's some things that were non-applicable.
+
+94
+00:05:38,200 --> 00:05:40,344
+So there was another critical standard,
+
+95
+00:05:40,767 --> 00:05:43,451
+and no non, intervention training documented.
+
+96
+00:05:43,452 --> 00:05:45,925
+We no longer have to do that for outpatient,
+
+97
+00:05:45,926 --> 00:05:50,081
+but inpatient does need that. then here's some other things that were not applicable.
+
+98
+00:05:50,323 --> 00:05:55,111
+It's the same exemptions, for chapter 27 as it is for chapter 18
+
+99
+00:05:55,112 --> 00:06:00,716
+and then here's some other things here that were not assessed and
+
+100
+00:06:00,717 --> 00:06:05,702
+then the summary so is filing so basically it is saying that
+
+101
+00:06:05,703 --> 00:06:07,840
+there were four findings, three critical,
+
+102
+00:06:07,851 --> 00:06:10,106
+it was these here, two necessary,
+
+103
+00:06:10,448 --> 00:06:13,135
+some nine passed, three not applicable, three not assessed,
+
+104
+00:06:13,136 --> 00:06:15,582
+five unclear. So it just gives us,
+
+105
+00:06:15,593 --> 00:06:18,419
+a rundown of everything here.
+
+106
+00:06:18,430 --> 00:06:20,845
+we went ahead and did the, the, I'm sorry,
+
+107
+00:06:20,846 --> 00:06:25,436
+the criminal history checks and everything here and yeah so this
+
+108
+00:06:25,437 --> 00:06:29,978
+was the employee file that we
+
+109
+00:06:29,979 --> 00:06:34,846
+used to have the auditor take care of so
+
+110
+00:06:35,102 --> 00:06:35,683
+thank you
