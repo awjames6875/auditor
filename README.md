@@ -40,6 +40,27 @@ printed by `python check.py --verify-reference`.
 
 ---
 
+## It was tested. It broke. Here is where.
+
+Seven defects, found in one day. Two were found by a compliance officer, two
+by someone who had never used Claude, one by auditing this repo's own
+receipts before publishing them.
+
+> **"This one has a 'correct' answer already written up, and it's wrong."**
+> — the compliance officer, finding an error in **this project's own answer
+> key**: a fixture dated so that a document arrived two months after the file
+> was reviewed, and the key marked it a pass.
+
+> **"I saw where it said file... I didn't know you meant every attachment."**
+> — the outsider, explaining why she never loaded the folder. She gave up
+> after 23 minutes without reaching a finding. `auditor/README.md` was
+> rewritten from that sentence.
+
+**Every one is listed with its fix — and so is everything still broken —
+in [`receipts/WHAT_TESTING_CHANGED.md`](receipts/WHAT_TESTING_CHANGED.md).**
+
+---
+
 ## The four things this was judged on, and where to check each
 
 | | Where to look |
@@ -47,7 +68,7 @@ printed by `python check.py --verify-reference`.
 | **Audits a real, citable standard?** | `auditor/reference/450-1-9-5.6.md` — full provision text, verified word for word against the state's own publication. Receipt: [`receipts/RULE_TEXT_VERIFICATION.md`](receipts/RULE_TEXT_VERIFICATION.md) |
 | **Findings specific and located, with severity?** | [`auditor/examples.md`](auditor/examples.md) — worked audits. Every finding carries a subsection citation, a location in the file, and the state's Critical/Necessary tier. |
 | **Standard actually in `reference/`?** | Yes — 1,778 words of provision text. Not a summary, not a link. |
-| **Can a stranger figure it out?** | [`auditor/README.md`](auditor/README.md) is the door. It was rewritten from what actually broke a tester who had never seen a personnel file or a state regulation — see `receipts/`. |
+| **Can a stranger figure it out?** | Not at first — **she gave up.** [`auditor/README.md`](auditor/README.md) is the door, and v2 was rewritten from the sentence that broke v1. Both versions ship: [`receipts/README-v1.md`](receipts/README-v1.md) is what she actually read. Transcript, uncut: [`receipts/RUN_B_TRANSCRIPT.md`](receipts/RUN_B_TRANSCRIPT.md) |
 
 ---
 
