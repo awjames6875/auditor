@@ -13,62 +13,14 @@ file: their training, their credentials, and their supervision.
 
 ## How to use it
 
-### Step 1 — attach ALL FIVE files. Not just this one.
+**1.** Drop this whole folder into a Claude project.
 
-There are **five** files here. **Claude needs all five.** This page alone
-is not enough — it tells you what the tool is, it does not tell the
-assistant how to audit.
+**2.** Paste in one employee's file. Messy is fine — a PDF paste, a
+scanned printout, typed notes. One person at a time.
 
-```
-README.md          ← you are reading this
-identity.md
-rules.md
-examples.md
-reference/450-1-9-5.6.md
-```
-
-**However they reached you** — a folder, a zip, or five separate email
-attachments — **download every one of them, then attach every one of them
-to a single Claude chat.**
-
-> If you attach only this page, Claude will answer you, and it will be
-> guessing. The rules are in the other files.
-
-### Step 2 — paste in one employee's file
-
-Messy is fine — a PDF paste, a scanned printout, typed notes. **One person
-at a time.**
-
-### Step 3 — type this
-
-> **"Audit this staff file."**
+**3.** Say: **"Audit this staff file."**
 
 It will ask you two questions first. **Answer them, then it audits.**
-
----
-
-## Which of these am I supposed to read?
-
-**This page. That's it.**
-
-The other four are written **for the assistant, not for you.** They are in
-plain text so you *can* read them if you want to check the tool's work —
-that is the point of shipping them — but you do not need to understand
-them to use it, and they will read like someone else's homework, because
-they are.
-
-| File | Who it's for |
-|---|---|
-| `README.md` | **You.** |
-| `identity.md` | The assistant — what it is and is not |
-| `rules.md` | The assistant — audit order, format, severity, exemptions |
-| `examples.md` | The assistant — three worked audits, including a refusal |
-| `reference/450-1-9-5.6.md` | **Anyone checking the tool's work.** The actual regulation, full text, not a summary. |
-
-**`reference/450-1-9-5.6.md` is the whole point.** Every finding quotes
-it. If you want to know whether the auditor is telling you the truth, open
-that file and read the rule yourself — it is verified word for word
-against the state's own publication.
 
 ---
 
@@ -137,6 +89,23 @@ happened in it.
 
 **It also won't:** decide whether you pass, predict what a reviewer will
 say, audit against your own internal policy manual, or give legal advice.
+
+---
+
+## What's in here
+
+| File | What it is |
+|---|---|
+| `README.md` | This page |
+| `identity.md` | What the auditor is and is not |
+| `rules.md` | How it audits — the order, the format, the severity tiers, the exemptions |
+| `examples.md` | Three worked audits, including a refusal |
+| `reference/` | **The actual regulation.** Full text, not a summary. |
+
+**`reference/450-1-9-5.6.md` is the whole point.** Every finding quotes
+it. If you want to check whether the auditor is telling you the truth,
+open that file and read the rule yourself — it is right there, verified
+word for word against the state's own publication.
 
 ---
 
