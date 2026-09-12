@@ -57,6 +57,13 @@ in its own output.
 > after 23 minutes without reaching a finding. `auditor/README.md` was
 > rewritten from that sentence.
 
+**That session is on video too:**
+[share.descript.com/view/KSG1sZ96pb9](https://share.descript.com/view/KSG1sZ96pb9)
+— all 23 minutes, coaching left in, ending in the give-up. The transcript
+committed beside it is
+[`receipts/RUN_B_RAW_TRANSCRIPT.md`](receipts/RUN_B_RAW_TRANSCRIPT.md),
+verbatim and uncut.
+
 **Every one is listed with its fix — and so is everything still broken —
 in [`receipts/WHAT_TESTING_CHANGED.md`](receipts/WHAT_TESTING_CHANGED.md).**
 

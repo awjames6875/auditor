@@ -4,7 +4,8 @@
 **Tester:** **Karen** — has never worked in behavioral health, HR, or compliance, and had never used Claude before this session. First name only.
 **Consent:** obtained in writing before the session, covering her first name and her verbatim words appearing in a public repository.
 **Duration:** approximately 23 minutes of task time, inside the 25-minute hard stop.
-**Raw transcript:** `receipts/RUN_B_RAW_TRANSCRIPT.md`, verbatim and uncut.
+**Video:** https://share.descript.com/view/KSG1sZ96pb9 — the full session, screen shared, coaching left in.
+**Raw transcript:** `receipts/RUN_B_RAW_TRANSCRIPT.md`, verbatim and uncut. Per `TEST_METHOD.md`, the link is not the record; the committed transcript is.
 
 ---
 

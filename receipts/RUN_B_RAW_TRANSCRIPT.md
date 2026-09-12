@@ -1,5 +1,8 @@
 # Claude AI Usability Test with Karen
 
+**Video:** https://share.descript.com/view/KSG1sZ96pb9 — the session this transcript is taken from.
+**Receipt:** [`RUN_B_TRANSCRIPT.md`](RUN_B_TRANSCRIPT.md)
+
 **Adam James:** ~~You have to leave at 6:00. ~~[00:00:00] 
 
 
