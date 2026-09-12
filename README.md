@@ -42,9 +42,10 @@ printed by `python check.py --verify-reference`.
 
 ## It was tested. It broke. Here is where.
 
-Seven defects, found in one day. Two were found by a compliance officer, two
+Eight defects, found in one day. Four were found by a compliance officer, two
 by someone who had never used Claude, one by auditing this repo's own
-receipts before publishing them.
+receipts before publishing them — and one by the tool itself, on a real file,
+in its own output.
 
 > **"This one has a 'correct' answer already written up, and it's wrong."**
 > — the compliance officer, finding an error in **this project's own answer
@@ -77,10 +78,23 @@ took a real file. **It is published as found and not fixed**, because a
 rushed edit to a frozen file hours before a deadline is the thing this
 project's method exists to resist.
 
-Counts only, no file content:
-[`receipts/RUN_D_LIVE_USE.md`](receipts/RUN_D_LIVE_USE.md). The receipt
-written hours earlier saying that run would never happen is kept, unedited,
-at [`receipts/RUN_D_NOT_RUN.md`](receipts/RUN_D_NOT_RUN.md).
+**The session is on video:**
+[loom.com/share/cd52836fe3ea4b02a2b4105b8b663105](https://www.loom.com/share/cd52836fe3ea4b02a2b4105b8b663105)
+— her narrating the run as she goes. Per `TEST_METHOD.md` the link is not
+the record; the committed transcript is
+[`receipts/RUN_D_RAW_NARRATION.srt`](receipts/RUN_D_RAW_NARRATION.srt),
+beside it.
+
+The receipt is [`receipts/RUN_D_LIVE_USE.md`](receipts/RUN_D_LIVE_USE.md),
+and **the auditor's entire output is published** —
+[`receipts/RUN_D_FULL_OUTPUT_REDACTED.md`](receipts/RUN_D_FULL_OUTPUT_REDACTED.md).
+Name, position, licence numbers and date of birth are masked in place; every
+provision, status, severity, requirement quotation and gap is intact, because
+a redacted output nobody can check proves nothing. **Count the findings
+yourself** — that is how the defect above is verified.
+
+The receipt written hours earlier saying that run would never happen is kept,
+unedited, at [`receipts/RUN_D_NOT_RUN.md`](receipts/RUN_D_NOT_RUN.md).
 
 ---
 

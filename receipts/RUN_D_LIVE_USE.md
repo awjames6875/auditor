@@ -4,6 +4,7 @@
 **Tester:** **Lisa**, compliance officer at Safe Harbor Behavioral Health. First name only.
 **Consent:** given in writing, covering her first name, her verbatim words, and the recording of this session appearing publicly.
 **Material:** **a real staff personnel file at the agency**, redacted by her before the run. Not a fixture. It appears nowhere in this repo and never will.
+**Video:** https://www.loom.com/share/cd52836fe3ea4b02a2b4105b8b663105 — the recorded session, her narrating as she goes.
 **Record:** `receipts/RUN_D_RAW_NARRATION.srt` — her narration, committed here beside the video link. Per `TEST_METHOD.md`, the link is not the record; the committed transcript is.
 
 > **This receipt supersedes [`RUN_D_NOT_RUN.md`](RUN_D_NOT_RUN.md)**, written
@@ -25,15 +26,19 @@ place rather than silently removed. Nothing else was cut.
 
 **No finding below names a person, a date, a credential, or a document.**
 
-**The tool's full output is not published, and will not be.** It contains the
-employee's name, two licence numbers, a date of birth, and credential and
-document dates. **That employee is not a consenting party to any of this.**
-The compliance officer consented for herself; the person whose file was
-audited was never asked, and a public repository is not the place to answer
-for him. Counts, statuses, and the auditor's own reasoning are published.
-The findings themselves — which provision failed for which person — are not.
+**The tool's full output IS published, redacted:**
+[`RUN_D_FULL_OUTPUT_REDACTED.md`](RUN_D_FULL_OUTPUT_REDACTED.md).
 
-This costs the entry a vivid exhibit and it is not a close call.
+Removed there, each marked in place rather than silently deleted: the
+employee's **name**, **position title**, **licence and certification
+numbers**, and **date of birth**. The employee is not a party to this
+competition and did not consent to anything; the direct identifiers are the
+part that could reach him.
+
+Everything else stands — every provision, status, severity, requirement
+quotation and gap statement, plus the module titles and document dates the
+reasoning depends on. **The audit logic is intact**, because a redacted
+output nobody can check is not evidence of anything.
 
 ---
 
