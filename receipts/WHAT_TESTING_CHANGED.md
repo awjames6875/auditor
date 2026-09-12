@@ -17,6 +17,7 @@ the alternative is sixteen receipts a reader has to assemble themselves.
 | **4** | **An assumption was baked in and never written down** — whether an annual licensure review is owed for a partial hire year. The rule spells out no grace period; no fixture tested it either way. | Lisa · [Run A](RUN_A_CORRECTIONS.md) | Documented as a stated limit in `rules.md` §8 rather than resolved by guess. |
 | **5** | **The first instruction in the README could not be followed.** v1 said *"Drop this whole folder into a Claude project."* The tester pasted one file and worked from it for twenty minutes. | Karen · [Run B](RUN_B_TRANSCRIPT.md) | README v2 names the count, lists all five filenames, covers folder **or** zip **or** loose attachments, and warns: *"If you attach only this page, Claude will answer you, and it will be guessing."* v1 preserved at [`README-v1.md`](README-v1.md). 688 → 869 words. |
 | **6** | **A human read files written for the assistant.** She spent most of her twenty-three minutes inside `rules.md` and hit vocabulary that stopped her cold. | Karen · [Run B](RUN_B_TRANSCRIPT.md) | README v2 adds **"Which of these am I supposed to read?"** — *this page, that's it.* The other four are named as written for the assistant, readable if you want to check the tool's work, unnecessary otherwise. |
+| **8** | **The auditor miscounts its own findings.** Run on a real staff file, it listed **five** FAILs and summarised them as *"4 findings"*; listed **eight** PASSes and summarised them as *"9 PASS."* The itemised findings are correct — only the tally is wrong, and **it undercounts failures.** | The real file · [Run D](RUN_D_LIVE_USE.md) | **Found. Not fixed.** No count-verification step was added to `rules.md`: that would be an untested edit to a frozen file, made hours before a deadline, under exactly the pressure this project's method exists to resist. Published as an open defect instead. |
 | **7** | **A receipt overstated the evidence against this build.** It claimed Run 0, Run C and the independent agent test had all run against `fixture-02` and missed the date. **None of them had.** Run 0 used `fixture-01`; the other two used `fixture-03`. | Self-audit, before the commit | Corrected in both files to the true version — **nothing had ever been run against `fixture-02`** — and the true version is the stronger one: the defect survived because nothing ever looked. |
 
 ### In her words
@@ -67,8 +68,15 @@ untested. See [`DEVIATIONS.md`](DEVIATIONS.md).
 encouragement while the tester was failing — all of it stays in
 [`RUN_B_RAW_TRANSCRIPT.md`](RUN_B_RAW_TRANSCRIPT.md), uncut.
 
+**Nothing verifies the summary line.** `check.py` confirms that a cited
+provision exists in `reference/`. **It does not count anything.** 15 of 15
+gates passing says nothing about whether a tally is correct — which is
+exactly how defect **#8** above reached a real file unnoticed. The gate that
+would catch it does not exist.
+
 **n = 1 everywhere.** One insider, once. One outsider, once. One cold model,
-once. One control, once. No result here is a rate.
+once. One control, once. **One real staff file, once.** No result here is a
+rate.
 
 ---
 

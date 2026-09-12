@@ -67,7 +67,17 @@ that morning had never been tested:
 > **"It's the same exemptions for chapter 27 as it is for chapter 18."**
 
 It returned findings, passes, and — where the record was genuinely absent —
-**UNCLEAR rather than a confident failure.** Counts only, no file content:
+**UNCLEAR rather than a confident failure.**
+
+**And it exposed a defect in itself.** On a file with enough findings for the
+arithmetic to drift, the auditor listed five failures and summarised them as
+*"4 findings."* The itemised findings are correct; the tally undercounts. No
+fixture could have surfaced it and `check.py` does not count anything — it
+took a real file. **It is published as found and not fixed**, because a
+rushed edit to a frozen file hours before a deadline is the thing this
+project's method exists to resist.
+
+Counts only, no file content:
 [`receipts/RUN_D_LIVE_USE.md`](receipts/RUN_D_LIVE_USE.md). The receipt
 written hours earlier saying that run would never happen is kept, unedited,
 at [`receipts/RUN_D_NOT_RUN.md`](receipts/RUN_D_NOT_RUN.md).

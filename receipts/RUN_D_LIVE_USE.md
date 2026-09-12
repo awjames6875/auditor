@@ -25,6 +25,16 @@ place rather than silently removed. Nothing else was cut.
 
 **No finding below names a person, a date, a credential, or a document.**
 
+**The tool's full output is not published, and will not be.** It contains the
+employee's name, two licence numbers, a date of birth, and credential and
+document dates. **That employee is not a consenting party to any of this.**
+The compliance officer consented for herself; the person whose file was
+audited was never asked, and a public repository is not the place to answer
+for him. Counts, statuses, and the auditor's own reasoning are published.
+The findings themselves — which provision failed for which person — are not.
+
+This costs the entry a vivid exhibit and it is not a close call.
+
 ---
 
 ## Method
@@ -74,29 +84,73 @@ the evening, verified by the person who raised it.
 
 ## What it returned
 
-**Counts below are transcribed from her spoken narration**, which is the
-record in hand at the time of writing:
+**As the auditor reported them, verbatim from its own SUMMARY line:**
 
-> *"There were four findings, three critical... two necessary, some nine
-> passed, three not applicable, three not assessed, five unclear."*
+> *"4 findings — 3 Critical, 2 Necessary. 9 PASS. 3 NOT APPLICABLE. 3 NOT
+> ASSESSED. 5 UNCLEAR."*
 
-> ⚠️ **Her spoken counts do not reconcile: "four findings" against "three
-> critical, two necessary" is five.** This is stated rather than quietly
-> resolved. A spoken summary while scrolling a long output is not a reliable
-> count, and **no number here has been adjusted to make the arithmetic
-> work.** The exact figures require the tool's own output rather than the
-> narration.
+---
+
+## ⚠️ WHAT IT GOT WRONG — the summary undercounts its own findings
+
+**This is the headline result of the run.** The auditor itemised its findings
+correctly and then tallied them incorrectly.
+
+| Status | Provisions it actually listed | Count | Its SUMMARY says |
+|---|---|---|---|
+| **FAIL** | `(a)(4)` Critical · `(b)(2)(E)` Critical · `(b)(2)(K)` Critical · `(b)(2)(F)` Necessary · `(b)(2)(H)` Necessary | **5** | **"4 findings"** — while naming all five, and while stating "3 Critical, 2 Necessary," which is itself 5 |
+| **PASS** | `(a)(1)` · `(a)(3)` · `(b)(2)(B)` · `(b)(2)(C)` · `(b)(2)(D)` · `(b)(2)(G)` · `(b)(2)(I)` · `(b)(2)(J)` | **8** | **"9 PASS"** |
+| UNCLEAR | `(a)(2)` · `(b)(2)(A)` · `(b)(2)(L)` · `(b)(2)` timing · `(c)(2)` | 5 | 5 ✓ |
+| NOT APPLICABLE | `(b)(3)` · `(b)(4)` · `(b)(6)` | 3 | 3 ✓ |
+| NOT ASSESSED | `(b)(1)` · `(b)(5)` · `(c)(1)` | 3 | 3 ✓ |
+
+**It undercounts failures.** That is the direction that costs an operator
+something: a person who reads only the summary — which is what a summary is
+for — sees fewer failures than the tool actually found.
+
+**Correction to this receipt's own earlier version.** An earlier draft
+recorded the discrepancy as possibly the reviewer misreading a long output
+while scrolling. **That was wrong and it is withdrawn.** She read the summary
+line aloud accurately. The summary line was wrong.
+
+### Why nothing in this build could have caught it
+
+- **`check.py` does not count.** It verifies that a cited provision exists in
+  `reference/`. It has no gate on totals, and 15/15 passing says nothing
+  about whether a tally is right.
+- **No fixture could expose it.** Every total in `EXPECTED_RESULTS.md` was
+  computed by hand by the entrant, and the fixtures produce few enough
+  findings that arithmetic does not drift.
+- **Reading carefully does not catch it either** — the itemised findings are
+  all correct. Only the tally is wrong, and only against a file that produced
+  enough findings for the error to appear.
+
+**It took a real staff file to surface this.** That is the argument for Run D
+existing at all, and it is published rather than quietly patched.
+
+### Found, not fixed
+
+**No fix was attempted tonight.** Adding a count-verification step to
+`rules.md` hours before a deadline would be an untested edit to a frozen
+file, made under exactly the pressure this project's method exists to resist.
+It is logged as an open defect in
+[`WHAT_TESTING_CHANGED.md`](WHAT_TESTING_CHANGED.md).
 
 **Behavior she described, which does not depend on the counts:**
 
-| What it did | Why it matters |
+Described as behaviour only. **No observed file content is reproduced.**
+
+| What the auditor did | Why it matters |
 |---|---|
-| Returned **FAIL** on a missing annual review, quoting the requirement and naming the gap | The seven-field format working on real material |
-| Returned **FAIL** on missing child-abuse-reporting training — *"13 training modules listed and attested to but none of them described as covering child abuse reporting"* | It read what was there and named what was not, rather than accepting a count of modules as compliance |
-| Returned **UNCLEAR**, not FAIL, where no privileging record existed and no first-service date appeared — *"because it couldn't determine the sequencing, or if it existed, it told us that it was unclear"* | **This is the whole thesis.** On a real file with missing records it declined to guess instead of manufacturing a confident finding |
-| Flagged two documents for the same training dated a year apart, one signed *"over seven months after the calendar year closed"* | Caught an internal date conflict in a real file |
-| Returned **NOT APPLICABLE** on intervention training via the Chapter 27 route | The scope logic Run A said was untested |
-| Listed the **PASS** lines individually | `rules.md` requires passes be reported, not just failures |
+| Issued every finding in the seven-field format, each quoting the provision text and naming the gap | The format holding on material it had never seen |
+| Declined to treat a list of completed training topics as satisfying a required topic that was not among them | It compared against the standard rather than accepting volume as compliance |
+| Returned **UNCLEAR rather than FAIL** where a required record was absent *and* the date needed to assess it was also absent | **This is the whole thesis.** Given a real file with genuine holes it declined to guess instead of manufacturing a confident finding |
+| Found two documents asserting the same obligation with conflicting completion dates, and **refused to decide which governed** — *"I'm not resolving which date controls — that's a fact only the agency's records can settle"* | Named a conflict, then stopped at the edge of what a personnel file can answer |
+| Returned **NOT APPLICABLE** on `(b)(3)` and `(b)(4)` **via the Chapter 27 clause specifically** — *"each is triggered by Chapter 27 status regardless of level of care"* — and flagged it for human review | The exact route `fixture-06` was written to test. Confirmed on a real file, and it did **not** reason from the Chapter 18 outpatient clause it had seen in every fixture |
+| Declined a scope judgment it had no basis for, flagging `(c)(2)` for human review rather than assuming which way it applied | *"Flagged for human review rather than assumed"* — the refusal discipline, unprompted |
+| Named six screening and administrative records as **outside `(a)(b)(c)` entirely** and did not audit them | `fixture-05` behaviour on real material: it did not reach for out-of-scope gaps to inflate the finding count |
+| Listed every **PASS** individually | `rules.md` requires passes be reported, not only failures |
+| Assigned Critical/Necessary tiers matching `EXPECTED_RESULTS.md` on every `(b)(2)` topic it ruled on | The severity table Lisa flagged as under-verified produced correct tiers here |
 
 ---
 
